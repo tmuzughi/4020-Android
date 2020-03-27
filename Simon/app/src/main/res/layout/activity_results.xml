@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5722"
+    android:backgroundTint="#070505"
+    tools:context=".Results">
+
+    <Button
+        android:id="@+id/restartBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:height="75dp"
+        android:background="#FFFFFF"
+        android:text="Restart"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+</RelativeLayout>

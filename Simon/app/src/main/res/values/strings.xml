@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Simon</string>
+    <string name="easy_name">Easy</string>
+    <string name="medium_name">Medium</string>
+    <string name="hard_name">Hard</string>
+    <string name="score_value">0</string>
+</resources>

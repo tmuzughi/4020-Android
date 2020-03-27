@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9C27B0"
+    android:backgroundTint="#090404"
+    tools:context=".Green">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:fontFamily="cursive"
+        android:outlineAmbientShadowColor="#C3F10707"
+        android:text=""
+        android:textColor="#E4FFFFFF"
+        android:textSize="44dp"
+        android:textStyle="bold"
+         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/score"
+        android:text="@string/score_value"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:textAlignment="textEnd"
+        android:textSize="36dp"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textColor="#E4FFFFFF"
+        android:layout_marginEnd="6dp"
+        />
+
+    <Button
+        android:id="@+id/greenBtn"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/blueBtn"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="4dp"
+        android:height="75dp"
+        android:background="#007E04"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        />
+
+
+    <Button
+        android:id="@+id/yellowBtn"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/redBtn"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_toRightOf="@id/greenBtn"
+        android:height="75dp"
+        android:background="#E9D117"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/blueBtn"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/title"
+        android:layout_marginTop="95dp"
+        android:height="75dp"
+        android:background="#00158B"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/redBtn"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_below="@id/title"
+        android:layout_toRightOf="@+id/blueBtn"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="95dp"
+        android:height="75dp"
+        android:background="#7C0000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/restartBtn"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/blueBtn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:height="75dp"
+        android:background="#FFFFFF"
+        android:text="Restart"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+
+
+
+</RelativeLayout>
